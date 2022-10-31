@@ -1,13 +1,16 @@
 # AVL Tree Project
+
 > Self-balancing binary search tree. Implemented in Java.
 
 ## Table of Contents
+
 * [General Info](#general-info)
-* [Technologies Used](#tech-used)
+* [Technologies Used](#technologies-used)
 * [Set Up](#set-up)
 * [How to Run](#how-to-run)
 
 ## General Info
+
 Project is split into 2 packages:  
 &nbsp;&nbsp;&nbsp;&nbsp;Package 'main' consists of: 'main.java'.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;File 'main.java' is responsible for running the main funciton in the application.  
@@ -25,13 +28,16 @@ Project is split into 2 packages:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;File contains methods for: inserting and deleteing (which automatically call to other methods to balance the tree if needed).
 
 ## Technologies Used
+
 * Java
 * Visual Studio Code
 * Extension Pack for Java
 * Git
 
 ## Set Up
+
 1. Dowload all files onto a stand alone directory.
 
 ## How to Run
+
 1. Run program from the console of said directory, or preffered IDE.
