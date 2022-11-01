@@ -9,7 +9,7 @@ import classes.*;
 
 public class App {
 
-    public static void main(String args[]) {
+    public static void main(String[] args) throws Exception{
         BinaryTree<String> newBinaryTree = new BinaryTree<>();
         Map<String, TreeNode<String>> map = new HashMap<>();
         for (Character c = 'a'; c <= 'g'; c++) {

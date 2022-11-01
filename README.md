@@ -12,20 +12,18 @@
 ## General Info
 
 Project is split into 2 packages:  
-&nbsp;&nbsp;&nbsp;&nbsp;Package 'main' consists of: 'main.java'.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;File 'main.java' is responsible for running the main funciton in the application.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It runs a program which prompts the user for user input and calls the correct funstions accordingly.  
-&nbsp;&nbsp;&nbsp;&nbsp;Package 'classes' consists of: 'TreeNode.java', 'BinaryTree.java', 'BinarySearchTree.java', and 'AVLtree.java'.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;File 'TreeNode.java' contains the class definition of a tree node.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A tree node consists of a generic data type, a left and right child, and a parent.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;File 'BinaryTree.java' contains the class definition of a binary tree.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A binary tree consists of a single tree node (root).  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;File contains methods for traversal: inorder, preorder, postorder, and level order.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;File 'BinarySearchTree.java' contains the class definition of a binary search tree. It is a child class of BinartyTree.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A binary search tree is made up of a Comparator to distinguish between data values.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;File also contains methods for: retieving the height and size of a tree (given a TreeNode), inserting, and deleting.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;File 'AVLtree.java' contains the class definition of an AVL tree. It is a child class of Binary Tree and Binary Search Tree.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;File contains methods for: inserting and deleteing (which automatically call to other methods to balance the tree if needed).
+&nbsp;&nbsp;&nbsp;&nbsp;Package 'main' consists of: 'App.java'.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;File 'App.java' is responsible for running the main funciton in the application.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It runs a program which prompts the user for user input inorder to: create, add, subtract, multiply, and evaluate polynomial terms, or exit the program.  
+&nbsp;&nbsp;&nbsp;&nbsp;Package 'classes' consists of: 'PolyTerm.java', 'Node.java', and 'SimpleLinkedList.java'.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;File 'PolyTerm.java' contains the class definition of a polynomail term.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A polynomial term consists of an exponenet and a coefficient.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;File 'Node.java' contains the class definition of a linked list node.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A node consists of a generic data type (which will store the polynomial terms), and a refernce to the next node.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;File 'LinkedList.java' contains the class defnition of a linked list.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A linked list consists of a single node (root), and the an integer holding the size of the list.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Methods include: print list, has value, add value(or node) (to back or front), remove a given value, reversing the lsit, return an intersection list given two other lists.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Polynomial specific methods include: add value (or node) in order (overwrite or additive), add two poly lists, subtract two polylists, multiply two polylists, and evaluate a polynomial given a value.
 
 ## Technologies Used
 
